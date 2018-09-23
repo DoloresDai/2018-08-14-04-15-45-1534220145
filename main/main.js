@@ -2,16 +2,17 @@
 function caclRemaindar(a,b){
   return a%b;
 };
-function caclSum(array){
+
+function caclSum(array) {
   var sum = 0;
-  for(var i=0;i<array.length ;i++)
+  for(var i=0;i<array.length ; i++)
   {
     sum+=array[i];
   }
   return sum;
 };
 
-function caclSumInCondition(array,a){
+function caclSumInConditon(array,a){
   var sum = 0;
   for(var i=0;i<array.length ; i++)
 {
