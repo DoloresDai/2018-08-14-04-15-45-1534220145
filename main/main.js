@@ -1,7 +1,13 @@
 // Write your cade below:
-module.exports = function main() {
-  var a = 5;
-var b = 2;
-alert(parseInt(a/b));
-alert(a%b);
+<script>
+var a = 9;
+var b = 4;
+alert(a%b);//余数
+</script>
+<script>
+var a = 9;
+var b = 3;
+alert(a%b);//余数
+</script>
+
 }; 
