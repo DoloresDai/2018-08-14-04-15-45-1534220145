@@ -1,25 +1,5 @@
 // Write your cade below:
-function caclRemaindar(a,b){
-  return a%b;
-};
-
-function caclSum(array) {
-  var sum = 0;
-  for(var i=0;i<array.length ; i++)
-  {
-    sum+=array[i];
-  }
-  return sum;
-};
-
-function caclSumInConditon(array,a){
-  var sum = 0;
-  for(var i=0;i<array.length ; i++)
-{
-  if (array[i]<a)
-   {
-    sum+=array[i];
-  }
-}
-return sum;
-};
+var a = 5;
+var b = 2;
+alert(parseInt(a/b));//整数 parseInt()丢弃小数部分,保留整数部分
+alert(a%b);//余数
